@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://kit.fontawesome.com/ae50c5d7ca.css" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/ae50c5d7ca.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="app.js"></script>
+    <title>MDN Landing Page</title>
+</head>
+
+<body>
+    <header id="header">
+        <a class="header-logo" href="#">
+            <img src="pictures/header/MDN_logo.png" alt="logo">
+        </a>
+
+        <ul class="header-cats">
+            <li class="cat">
+                <h5 class="cat-title">References</h5>
+                <ul class="submenu">
+                    <li class="menu-item">
+                        <a class="menu-link" href="#">
+                            <div class="menu-text">
+                                <h4 class="menu-title">HTML</h4>
+                                <h5 class="menu-subtitle">Structure of content on the web</h5>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a class="menu-link" href="#">
+                            <div class="menu-text">
+                                <h4 class="menu-title">CSS</h4>
+                                <h5 class="menu-subtitle">Code used to describe document style</h5>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a class="menu-link" href="#">
+                            <div class="menu-text">
+                                <h4 class="menu-title">JavaScript</h4>
+                                <h5 class="menu-subtitle">General-purpose scripting language</h5>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a class="menu-link" href="#">
+                            <div class="menu-text">
+                                <h4 class="menu-title">HTTP</h4>
+                                <h5 class="menu-subtitle">Protocol for transmitting web resources</h5>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a class="menu-link" href="#">
+                            <div class="menu-text">
+                                <h4 class="menu-title">Web APIs</h4>
+                                <h5 class="menu-subtitle">Interfaces for building web applications</h5>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a class="menu-link" href="#">
+                            <div class="menu-text">
+                                <h4 class="menu-title">Web Extensions</h4>
+                                <h5 class="menu-subtitle">Developing extensions for web browsers</h5>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a class="menu-link" href="#">
+                            <div class="menu-text">
+                                <h4 class="menu-title">Web Technology</h4>
+                                <h5 class="menu-subtitle">Web Technology reference for developers</h5>
+                            </div>
+                        </a>
+                    </li>
+                </>
+            </li>
+            
+            <li class="cat">
+                <button class="accordion">Guides</button>
+                <div class="submenu">
+                    <li class="menu-link" href="#">
+                        <i class="fa-sharp fa-solid fa-pipe"></i>
+                        <div class="menu-text">
+                            <h4 class="menu-title">MDN Learning Area</h4>
+                            <h5 class="menu-subtitle">Learn web development</h5>
+                        </div>
+                    </li>
+                    <li class="menu-link" href="#">
+                        <i class="fa-sharp fa-solid fa-pipe"></i>
+                        <div class="menu-text">
+                            <h4 class="menu-title">HTML</h4>
+                            <h5 class="menu-subtitle">Learn to structure web content with HTML</h5>
+                        </div>
+                    </li>
+                    <li class="menu-link" href="#">
+                        <i class="fa-sharp fa-solid fa-pipe"></i>
+                        <div class="menu-text">
+                            <h4 class="menu-title">CSS</h4>
+                            <h5 class="menu-subtitle">Use to style content using CSS</h5>
+                        </div>
+                    </li>
+                    <li class="menu-link" href="#">
+                        <i class="fa-sharp fa-solid fa-pipe"></i>
+                        <div class="menu-text">
+                            <h4 class="menu-title">JavaScript</h4>
+                            <h5 class="menu-subtitle">Learn to run scripts in the browser</h5>
+                        </div>
+                    </li>
+                    <li class="menu-link" href="#">
+                        <i class="fa-sharp fa-solid fa-pipe"></i>
+                        <div class="menu-text">
+                            <h4 class="menu-title">Accessibility</h4>
+                            <h5 class="menu-subtitle">Learn to make the web accessible to all</h5>
+                        </div>
+                    </li>
+                </div>
+            </li>
+
+            <li class="cat">
+                <button class="accordion">MDN Plus</button>
+                <div class="submenu">
+                    <a class="menu-link" href="#">
+                        <i class="fa-sharp fa-solid fa-pipe"></i>
+                        <div class="menu-text">
+                            <h4 class="menu-title">Overview</h4>
+                            <h5 class="menu-subtitle">A customized MDN experience</h5>
+                        </div>
+                    </a>
+                    <a class="menu-link" href="#">
+                        <i class="fa-sharp fa-solid fa-pipe"></i>
+                        <div class="menu-text">
+                            <h4 class="menu-title">Updates</h4>
+                            <h5 class="menu-subtitle">All browser compatibillity updates at a glance</h5>
+                        </div>
+                    </a>
+                    <a class="menu-link" href="#">
+                        <i class="fa-sharp fa-solid fa-pipe"></i>
+                        <div class="menu-text">
+                            <h4 class="menu-title">Documentation</h4>
+                            <h5 class="menu-subtitle">Learn how to use MDN Plus</h5>
+                        </div>
+                    </a>
+                    <a class="menu-link" href="#">
+                        <i class="fa-sharp fa-solid fa-pipe"></i>
+                        <div class="menu-text">
+                            <h4 class="menu-title">FAQ</h4>
+                            <h5 class="menu-subtitle">Frequently asked questions about MDN Plus</h5>
+                        </div>
+                    </a>
+                </div>
+            </li>
+        </ul>
+
+        <div class="tool-bar">
+            <div class="theme-toggle">
+                <button>
+                    <img src="pictures/header/theme-mode.svg" alt="mode">
+                    Theme
+                </button>
+                <ul class="theme-menu">
+                    <li class="menu-link">
+                        <label for="theme">
+                            <img src="pictures/header/theme-mode.svg" alt="mode">
+                            OS Default
+                        </label>
+                    </li>
+                    <li class="menu-link">
+                        <label for="theme">
+                            <img src="pictures/header/light.svg" alt="mode">
+                            Light
+                        </label>
+                    </li>
+                    <li class="menu-link">
+                        <label for="theme">
+                            <img src="pictures/header/dark.svg" alt="dark">
+                            Dark
+                        </label>
+                    </li>
+                </ul>
+            </div>
+
+            <input type="search" id="header-search">
+            <button class="search-btn">
+                <span class="material-icons">search</span>
+            </button>
+            <button class="reset-search-btn">
+                <span class="material-icons">close</span>
+            </button>
+            
+            <a class="subscriber-link" href="#">Already a subscriber?</a>
+
+            <a class="button" href="#">Get MDN Plus</a>
+        </div>
+    </header>
+
+    <hr>
+
+    <section id="hero">
+        <h1 class="hero-title">Resources for Developers,
+            by Developers_</h1>
+        <p class="hero-text">Documenting web technologies, including CSS, HTML, and JavaScript, since 2005.</p>
+        <input type="search" id="hero-search">
+        <span class="material-icons">
+            search
+        </span>
+    </section>
+
+    <main id="main">
+        <div class="articles">
+            <h2 class="article-title">Featured Articles</h2>
+            <ul class="cards">
+                <li class="card">
+                    <h4 class="card-subtitle">
+                        <a href="">Web APIs</a>
+                    </h4>
+                    <h3 class="card-title">
+                        <a href="">Getting started with WebGL</a>
+                    </h3>
+                    <p class="card-text">WebGL enables web content to use an API based on OpenGL ES 2.0 to perform 2D
+                        and 3D
+                        rendering in an HTML canvas in browsers</p>
+                </li>
+                <li class="card">
+                    <h4 class="card-subtitle">
+                        <a href="">CSS</a>
+                    </h4>
+                    <h3 class="card-title">
+                        <a href="">CSS Container Queries</a>
+                    </h3>
+                    <p class="card-text">CSS containment provides a way to isolate parts of a page and declare to the
+                        browser
+                        these parts are independent from the rest of the page</p>
+                </li>
+                <li class="card">
+                    <h4 class="card-subtitle">
+                        <a href="">Web APIs</a>
+                    </h4>
+                    <h3 class="card-title">
+                        <a href="">Performance API</a>
+                    </h3>
+                    <p class="card-text">The Performance API is a group of standards used to measure the performance of
+                        web
+                        applications.</p>
+                </li>
+                <li class="card">
+                    <h4 class="card-subtitle">
+                        <a href="">CSS</a>
+                    </h4>
+                    <h3 class="card-title">
+                        <a href="">font-palette</a>
+                    </h3>
+                    <p class="card-text">The font-palette CSS property allows specifying one of the many palettes
+                        contained
+                        in a font that a user agent should use for the font. Users</p>
+                </li>
+            </ul>
+        </div>
+
+        <div id="news">
+            <h2 class="list-title">Latest news</h2>
+            <ul class="list">
+                <li class="item">
+                    <div class="links">
+                        <a class="title" href="#">Revamp of MDN Web Docs Contribution Docs</a>
+                        <a class="source" href="#">hacks.mozilla.org</a>
+                    </div>
+                    <h5 class="date">3 months ago</h5>
+                </li>
+                <li class="item">
+                    <div class="links">
+                        <a class="title" href="#">The 100% Markdown Expedition</a>
+                        <a class="source" href="#">hacks.mozilla.org</a>
+                    </div>
+                    <h5 class="date">5 months ago</h5>
+                </li>
+                <li class="item">
+                    <div class="links">
+                        <a class="title" href="#">Merging two GitHub repositories without losing commit history</a>
+                        <a class="source" href="#">hacks.mozilla.org</a>
+                    </div>
+                    <h5 class="date">5 months ago</h5>
+                </li>
+            </ul>
+        </div>
+
+        <div id="contributions">
+            <h2 class="list-title">Recent contributions</h2>
+            <ul class="list">
+                <li class="item">
+                    <div class="links">
+                        <a class="title" href="#">chore(zh): remove `{{gecko}}` macro</a>
+                        <a class="source" href="#">mdn/translated-content</a>
+                    </div>
+                    <h5 class="date">a day ago</h5>
+                </li>
+                <li class="item">
+                    <div class="links">
+                        <a class="title" href="#">Using media queries section</a>
+                        <a class="source" href="#">mdn/content</a>
+                    </div>
+                    <h5 class="date">a day ago</h5>
+                </li>
+                <li class="item">
+                    <div class="links">
+                        <a class="title" href="#">Fix typo in documentation for Node.replaceChild()</a>
+                        <a class="source" href="#">mdn/content</a>
+                    </div>
+                    <h5 class="date">a day ago</h5>
+                </li>
+                <li class="item">
+                    <div class="links">
+                        <a class="title" href="#">Clarify Block and inline boxes</a>
+                        <a class="source" href="#">mdn/content</a>
+                    </div>
+                    <h5 class="date">3 months ago</h5>
+                </li>
+                <li class="item">
+                    <div class="links">
+                        <a class="title" href="#">Editorial updates to aria-controls content</a>
+                        <a class="source" href="#">mdn/content</a>
+                    </div>
+                    <h5 class="date">a day ago</h5>
+                </li>
+                <li class="item">
+                    <div class="links">
+                        <a class="title" href="#">image not working suggested changes</a>
+                        <a class="source" href="#">mdn/translated-content</a>
+                    </div>
+                    <h5 class="date">a day ago</h5>
+                </li>
+                <li class="item">
+                    <div class="links">
+                        <a class="title" href="#">fix(ru): translation mistake</a>
+                        <a class="source" href="#">mdn/translated-content</a>
+                    </div>
+                    <h5 class="date">a day ago</h5>
+                </li>
+                <li class="item">
+                    <div class="links">
+                        <a class="title" href="#">fix(ru): `_` in article's title</a>
+                        <a class="source" href="#">mdn/translated-content</a>
+                    </div>
+                    <h5 class="date">a day ago</h5>
+                </li>
+                <li class="item">
+                    <div class="links">
+                        <a class="title" href="#">JavaScript: Map.prototype.keys(), values() 추가</a>
+                        <a class="source" href="#">mdn/translated-content</a>
+                    </div>
+                    <h5 class="date">a day ago</h5>
+                </li>
+                <li class="item">
+                    <div class="links">
+                        <a class="title" href="#">Minor fix for "Node.js server without a framework"</a>
+                        <a class="source" href="#">mdn/content</a>
+                    </div>
+                    <h5 class="date">a day ago</h5>
+                </li>
+            </ul>
+        </div>
+    </main>
+
+    <section id="testimonials">
+        <div class="spotlight">
+            <h3 class="spotlight-title">Contributor Spotlight</h3>
+            <h4 class="author">
+                <a href="#">YUJI</a>
+            </h4>
+            <div class="quote">
+                <span class="material-icons quote-icon">
+                    format_quote
+                </span>
+                <blockquote class="quote-text">MDN Web Docs has the most up-to-date and accurate information and the
+                    content is
+                    presented in an easy-to-understand manner. I also like that it's available in many languages (very
+                    important!).</blockquote>
+            </div>
+            <a href="#">Get involved →</a>
+        </div>
+        <div class="contributor-logo">
+            <img src="pictures/feedback/mdn_contributor.png" alt="logo">
+        </div>
+    </section>
+
+    <footer id="footer">
+        <nav class="footer-nav">
+            <div class="info-column">
+                <a class="mdn-logo" href="#">
+                    <svg width="48" height="17" viewBox="0 0 48 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <title id="mdn-footer-logo-svg">MDN logo</title>
+                        <path
+                            d="M20.04 16.512H15.504V10.416C15.504 9.488 15.344 8.824 15.024 8.424C14.72 8.024 14.264 7.824 13.656 7.824C12.92 7.824 12.384 8.064 12.048 8.544C11.728 9.024 11.568 9.64 11.568 10.392V14.184H13.008V16.512H8.472V10.416C8.472 9.488 8.312 8.824 7.992 8.424C7.688 8.024 7.232 7.824 6.624 7.824C5.872 7.824 5.336 8.064 5.016 8.544C4.696 9.024 4.536 9.64 4.536 10.392V14.184H6.6V16.512H0V14.184H1.44V8.04H0.024V5.688H4.536V7.32C5.224 6.088 6.32 5.472 7.824 5.472C8.608 5.472 9.328 5.664 9.984 6.048C10.64 6.432 11.096 7.016 11.352 7.8C11.992 6.248 13.168 5.472 14.88 5.472C15.856 5.472 16.72 5.776 17.472 6.384C18.224 6.992 18.6 7.936 18.6 9.216V14.184H20.04V16.512Z"
+                            fill="currentColor"></path>
+                        <path
+                            d="M33.6714 16.512H29.1354V14.496C28.8314 15.12 28.3834 15.656 27.7914 16.104C27.1994 16.536 26.4154 16.752 25.4394 16.752C24.0154 16.752 22.8954 16.264 22.0794 15.288C21.2634 14.312 20.8554 12.984 20.8554 11.304C20.8554 9.688 21.2554 8.312 22.0554 7.176C22.8554 6.04 24.0634 5.472 25.6794 5.472C26.5594 5.472 27.2794 5.648 27.8394 6C28.3994 6.352 28.8314 6.8 29.1354 7.344V2.352H26.9754V0H32.2314V14.184H33.6714V16.512ZM29.1354 11.04V10.776C29.1354 9.88 28.8954 9.184 28.4154 8.688C27.9514 8.176 27.3674 7.92 26.6634 7.92C25.9754 7.92 25.3674 8.176 24.8394 8.688C24.3274 9.2 24.0714 10.008 24.0714 11.112C24.0714 12.152 24.3114 12.944 24.7914 13.488C25.2714 14.032 25.8394 14.304 26.4954 14.304C27.3114 14.304 27.9514 13.96 28.4154 13.272C28.8954 12.584 29.1354 11.84 29.1354 11.04Z"
+                            fill="currentColor"></path>
+                        <path
+                            d="M47.9589 16.512H41.9829V14.184H43.4229V10.416C43.4229 9.488 43.2629 8.824 42.9429 8.424C42.6389 8.024 42.1829 7.824 41.5749 7.824C40.8389 7.824 40.2709 8.056 39.8709 8.52C39.4709 8.968 39.2629 9.56 39.2469 10.296V14.184H40.6869V16.512H34.7109V14.184H36.1509V8.04H34.5909V5.688H39.2469V7.344C39.9669 6.096 41.1269 5.472 42.7269 5.472C43.7509 5.472 44.6389 5.776 45.3909 6.384C46.1429 6.992 46.5189 7.936 46.5189 9.216V14.184H47.9589V16.512Z"
+                            fill="currentColor"></path>
+                    </svg>
+                </a>
+                <p class="footer-text">Your blueprint for a better internet.</p>
+                <ul class="social">
+                    <li>
+                        <a class="twitter" href="https://twitter.com/mozdevnet">
+                            <img src="pictures/footer/icons/twitter.svg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a class="github" href="https://github.com/mdn/">
+                            <img src="pictures/footer/icons/github.svg" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="column">
+                <h4 class="column-title">MDN</h4>
+                <ul class="column-links">
+                    <li class="link">
+                        <a href="#">About</a>
+                    </li>
+                    <li class="link">
+                        <a href="#">Hacks Blog</a>
+                    </li>
+                    <li class="link">
+                        <a href="#">Careers</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="column">
+                <h2 class="column-title">Support</h2>
+                <ul class="column-links">
+                    <li class="link">
+                        <a href="#">Product help</a>
+                    </li>
+                    <li class="link">
+                        <a href="#">Report an issue</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="column">
+                <h2 class="column-title">Our communities</h2>
+                <ul class="column-links">
+                    <li class="link">
+                        <a href="#">MDN Community</a>
+                    </li>
+                    <li class="link">
+                        <a href="#">MDN Forum</a>
+                    </li>
+                    <li class="link">
+                        <a href="#">MDN Chat</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="column">
+                <h2 class="column-title">Developers</h2>
+                <ul class="column-links">
+                    <li class="link">
+                        <a href="#">Web Technologies</a>
+                    </li>
+                    <li class="link">
+                        <a href="#">Learn Web<br>Development</a>
+                    </li>
+                    <li class="link">
+                        <a href="#">MDN Plus</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <hr>
+
+        <div class="footer-legal">
+            <svg class="mozilla-logo" width="112" height="32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <title id="mozilla-footer-logo-svg">Mozilla logo</title>
+                <path
+                    d="M41.753 14.218c-2.048 0-3.324 1.522-3.324 4.157 0 2.423 1.119 4.286 3.29 4.286 2.082 0 3.447-1.678 3.447-4.347 0-2.826-1.522-4.096-3.413-4.096Zm54.89 7.044c0 .901.437 1.618 1.645 1.618 1.427 0 2.949-1.024 3.044-3.352-.649-.095-1.365-.185-2.02-.185-1.426-.005-2.668.397-2.668 1.92Z"
+                    fill="currentColor"></path>
+                <path
+                    d="M0 0v32h111.908V0H0Zm32.56 25.426h-5.87v-7.884c0-2.423-.806-3.352-2.39-3.352-1.924 0-2.702 1.365-2.702 3.324v4.868h1.864v3.044h-5.864v-7.884c0-2.423-.806-3.352-2.39-3.352-1.924 0-2.702 1.365-2.702 3.324v4.868h2.669v3.044H6.642v-3.044h1.863v-7.918H6.642V11.42h5.864v2.11c.839-1.489 2.3-2.39 4.252-2.39 2.02 0 3.878.963 4.566 3.01.778-1.862 2.361-3.01 4.566-3.01 2.512 0 4.812 1.522 4.812 4.84v6.402h1.863v3.044h-.005Zm9.036.307c-4.314 0-7.296-2.635-7.296-7.106 0-4.096 2.484-7.481 7.514-7.481s7.481 3.38 7.481 7.29c0 4.472-3.228 7.297-7.699 7.297Zm22.578-.307H51.942l-.403-2.11 7.7-8.846h-4.376l-.621 2.17-2.888-.313.498-4.907h12.294l.313 2.11-7.767 8.852h4.533l.654-2.172 3.167.308-.872 4.908Zm7.99 0h-4.191v-5.03h4.19v5.03Zm0-8.976h-4.191v-5.03h4.19v5.03Zm2.618 8.976 6.054-21.358h3.945l-6.054 21.358h-3.945Zm8.136 0 6.048-21.358h3.945l-6.054 21.358h-3.939Zm21.486.307c-1.863 0-2.887-1.085-3.072-2.792-.805 1.427-2.232 2.792-4.498 2.792-2.02 0-4.314-1.085-4.314-4.006 0-3.447 3.323-4.253 6.518-4.253.778 0 1.584.034 2.3.124v-.465c0-1.427-.034-3.133-2.3-3.133-.84 0-1.488.061-2.143.402l-.453 1.578-3.195-.34.549-3.224c2.45-.996 3.692-1.27 5.992-1.27 3.01 0 5.556 1.55 5.556 4.75v6.083c0 .805.314 1.085.963 1.085.184 0 .375-.034.587-.095l.034 2.11a5.432 5.432 0 0 1-2.524.654Z"
+                    fill="currentColor"></path>
+            </svg>
+            <ul class="legal-links">
+                <li class="link">
+                    <a href="#">Website Privacy Notice</a>
+                </li>
+                <li class="link">
+                    <a href="#">Cookies</a>
+                </li>
+                <li class="link">
+                    <a href="#">Legal</a>
+                </li>
+                <li class="link">
+                    <a href="#">Community Participation Guidelines</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="footer-legal">
+            <p class="legal-text">
+                Visit
+                <a href="https://www.mozilla.org/uk/">Mozilla Corporation’s</a>
+                not-for-profit parent, the
+                <a href="https://foundation.mozilla.org/en/">Mozilla Foundation</a>
+                .
+                <br>
+                Portions of this content are ©1998–2023 by individual mozilla.org contributors. Content available under
+                a
+                <a href="https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Attrib_copyright_license">Creative
+                    Commons license</a>
+                .
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>
